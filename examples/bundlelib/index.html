@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+
+    <script src="../../dist/foobar.js"></script>
+
+    <script>
+
+      var foobar = new Foobar();
+
+      function hello() { };
+
+      hello.foo = function () {
+        foobar.get().then(function (data) {
+          document.getElementById('mytext').innerHTML = data;
+        });
+      };
+
+    </script>
+
+    <div>
+      <button onclick="hello.foo()">Foo</button>
+      <h1>
+        Hello <span id="mytext"></span>
+      </h1>
+    </div>
+
+  </body>
+</html>
