@@ -1,6 +1,8 @@
 browserify-npm-seed
 ====
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/redgeoff/browserify-npm-seed.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/redgeoff/browserify-npm-seed.svg)](https://travis-ci.org/redgeoff/browserify-npm-seed)
 
 A seed project that builds with npm and uses browserify, mocha and istanbul. This project is based on [plugin-seed](https://github.com/pouchdb/plugin-seed), the great work by [Calvin Metcalf](https://github.com/calvinmetcalf) & [Nolan Lawson](https://github.com/nolanlawson).
